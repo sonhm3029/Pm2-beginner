@@ -1,0 +1,22 @@
+{
+    "apps": [
+        {
+            "name": "express-server",
+            "cwd": "C:\\Users\\hoang\\OneDrive\\Desktop\\nghich_prj\\pm2_practice\\express_server",
+            "script": "app.js",
+            "watch": true,
+            "ignore_watch": ["node_modules"],
+            "env": {
+                "EXPRESS_PORT": 8001
+            }
+        },
+        {
+            "name": "flask-server",
+            "cwd": "C:\\Users\\hoang\\OneDrive\\Desktop\\nghich_prj\\pm2_practice\\flask-server",
+            "script": "app.py",
+            "env": {
+                "FLASK_PORT":8008
+            }
+        }
+    ]
+}
